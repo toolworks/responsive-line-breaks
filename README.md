@@ -10,7 +10,7 @@ First of all, make sure the main LESS file is somewhere within your style source
 After you have your LESS styles compiled into CSS, you may use the generated classes as described below.
 
 ## Technique 1: Responsive `<br />`
-Place an HTML `<br class="rwd-break"/>` element inside your text block:
+This tecnique can be used in some sophisticated scenarios like with Bootstrap's `text-ribbon` class in its official themes. Place an HTML `<br class="rwd-break"/>` element inside your text block:
 ```html
 <h1>
   A line break example,<br class="rwd-break"/> for you to try out.
@@ -23,7 +23,7 @@ h1
 ```
 
 ## Technique 2: Responsive `<span>`
-Break your text block into HTML `<span class="rwd-line">` sections:
+This technique is the recommended one. Break your text block into HTML `<span class="rwd-line">` sections:
 ```html
 <h1 class="block-title">
   <span class="rwd-line">A line break example, </span>
