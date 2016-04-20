@@ -1,11 +1,45 @@
 // Responsive line breaks for Bootstrap. Based on: http://danielmall.com/articles/responsive-line-breaks/
 
-.rwd-line { display: block; }
-
-@media (min-width: @screen-sm-min){
-  .rwd-line { display: inline; }
-}
+// Technique 1: Responsive <br />
 
 @media (min-width: @screen-sm-min){
   .rwd-break { display: none; }
+}
+
+@media (min-width: @screen-sm-min){
+  .rwd-xs-break { display: none; }
+}
+
+@media (min-width: @screen-md-min){
+  .rwd-sm-break { display: none; }
+}
+
+@media (min-width: @screen-lg-min){
+  .rwd-md-break { display: none; }
+}
+
+.rwd-lg-break {}
+
+// Technique 2: Responsive <span>
+
+.rwd-line { display: block; }
+.rwd-xs-line { display: block; }
+.rwd-sm-line { display: block; }
+.rwd-md-line { display: block; }
+.rwd-lg-line { display: block; }
+
+@media (min-width: @screen-sm-min){
+  .rwd-line { display: inline-block; }
+}
+
+@media (min-width: @screen-sm-min){
+  .rwd-xs-line { display: inline-block; }
+}
+
+@media (min-width: @screen-md-min){
+  .rwd-sm-line { display: inline-block; }
+}
+
+@media (min-width: @screen-lg-min){
+  .rwd-md-line { display: inline-block; }
 }
