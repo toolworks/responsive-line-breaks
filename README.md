@@ -38,5 +38,8 @@ h1
   span.rwd-line for you to try out.
 ```
 
+## Variants
+For both types of techniques, you may use the resolution-adjusted versions of classes: `rwd-xs-break`, `rwd-sm-line`, etc. The standard Bootstrap resolution [tag](http://getbootstrap.com/css/#grid-options) (`xs`, `sm`, `md`, `lg`) specifies the resolution category smaller and equal to which the break functionality is activated.
+
 # Attribution
 The tech is based on the original article by [Dan Mall](http://danielmall.com/articles/responsive-line-breaks). Both of his techniques are implemented.
