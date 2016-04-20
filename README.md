@@ -9,7 +9,7 @@ First of all, make sure the main LESS file is somewhere within your style source
 
 After you have your LESS styles compiled into CSS, you may use the generated classes as described below.
 
-## Technique 1: Responsive <br />
+## Technique 1: Responsive `<br />`
 Place an HTML `<br class="rwd-break"/>` element inside your text block:
 ```html
 <h1>
@@ -22,7 +22,7 @@ h1
   | A line break example,<br class="rwd-break"/> for you to try out.
 ```
 
-## Technique 2: Responsive <span>
+## Technique 2: Responsive `<span>`
 Break your text block into HTML `<span class="rwd-line">` sections:
 ```html
 <h1 class="block-title">
